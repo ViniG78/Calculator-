@@ -1,19 +1,44 @@
-.principal {
-    position: absolute;
-    width: 700px;
-    height: 600px;
-    right: 25%;
-    top: 10%;
-    background: #60aad4;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    float: center;
+body{
+    margin: 0;
 }
-.tela{
-    position: relative;
-    width: 90%;
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(192, 192, 192);
+}
+h5{
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(192, 192, 192);
+    margin: 0;
+    margin-left: 0;
+    float: left;
+}
+.instagram_icon{
+    padding-left: 150px;
+}
+.texto-secundario{
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 5px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+header{
+    width: 80%;
     height: 100px;
-    top: 10%;
-    background: #5f686dab;
+    background-color: rgb(133, 143, 114);
+    margin: auto;
+    display: block;
+}
+main{
+    width: 80%;
+    height: 700px;
+    background-color: rgba(101, 104, 96, 0.993);
+    margin: auto;
 }
