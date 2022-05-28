@@ -1,24 +1,19 @@
 body{
     margin: 0;
 }
+header{
+    width: 80%;
+    height: 100px;
+    background-color: rgba(47, 51, 248, 0.849);
+    margin: auto;
+    display: block;
+}
 h1{
     margin: 0;
     text-align: center;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(192, 192, 192);
-}
-h5{
-    width: 300px;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(192, 192, 192);
-    margin: 0;
-    margin-left: 0;
-    float: left;
-}
-.instagram_icon{
-    padding-left: 150px;
+    color: rgb(0, 0, 0);
 }
 .texto-secundario{
     margin: 0;
@@ -27,18 +22,49 @@ h5{
     width: auto;
     height: auto;
     display: inline-block;
+}
+h5{
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    margin-left: 0;
     float: left;
 }
-header{
-    width: 80%;
-    height: 100px;
-    background-color: rgb(133, 143, 114);
-    margin: auto;
-    display: block;
+.instagram_icon{
+    padding-left: 600px;
 }
 main{
     width: 80%;
-    height: 700px;
     background-color: rgba(101, 104, 96, 0.993);
     margin: auto;
+    display: table;
+}
+.tela{
+    margin: auto;
+    width: 75%;
+    height: 60px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background-color: bisque;
+}
+.entrada{
+    margin: 15px 95px auto auto;
+    width: 75%;
+    background-color: bisque;
+}
+.fileira{
+    float: left;
+    width: 90%;
+    height: 15px;
+    margin: auto;
+    background-color: rgb(235, 238, 63);
+    display: table;
+
+}
+.entrada button{
+    margin: 15px auto auto 20px;
+    width: 75px;
+    border-radius: 10px;
 }
