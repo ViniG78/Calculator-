@@ -54,9 +54,12 @@ main{
     width: 75%;
     background-color: bisque;
 }
+.center{
+    width: 90%;
+    margin-left: 145px;
+}
 .fileira{
     float: left;
-    width: 90%;
     height: 15px;
     margin: auto;
     background-color: rgb(235, 238, 63);
@@ -64,7 +67,7 @@ main{
 
 }
 .entrada button{
-    margin: 15px auto auto 20px;
+    margin: 15px 20px 15px 20px;
     width: 75px;
     border-radius: 10px;
 }
