@@ -39,35 +39,31 @@ main{
     width: 80%;
     background-color: rgba(101, 104, 96, 0.993);
     margin: auto;
-    display: table;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 .tela{
-    margin: auto;
     width: 75%;
     height: 60px;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-top: 30px;
     background-color: bisque;
 }
 .entrada{
-    margin: 15px 95px auto auto;
     width: 75%;
-    background-color: bisque;
-}
-.center{
-    width: 90%;
-    margin-left: 145px;
-}
-.fileira{
-    float: left;
-    height: 15px;
-    margin: auto;
-    background-color: rgb(235, 238, 63);
-    display: table;
-
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    background-color: blue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
 }
 .entrada button{
-    margin: 15px 20px 15px 20px;
-    width: 75px;
+    width: 20%;
+    height: 40px;
+    margin-top: 15px;
     border-radius: 10px;
+    flex-basis: 25%;
 }
